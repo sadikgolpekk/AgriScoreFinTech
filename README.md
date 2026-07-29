@@ -197,37 +197,68 @@ Banka yetkilisi bir üreticinin (örn. Hasan Erdoğan) profilini incelerken sağ
 
 # 🚀 Sprint 3: Güvenilir Karar Destek, Risk Analiz ve Ürünleştirme
 
-- **Sprint Notları:** Projenin üçüncü aşamasında, AgriScore'un yalnızca üretici bilgilerini ve skorları gösteren statik bir panel olmaktan çıkarılarak daha güvenilir, açıklanabilir ve kullanıcıya yol gösteren bir tarımsal finans karar destek ürününe dönüştürülmesi hedeflenmiştir[cite: 1]. Önceki sprintlerde kurulan üretici paneli, kurumsal panel, belge yükleme alanı ve uygulama içi yardımcı korunmuş; bu yapıların gerçek kullanım sırasında yanıltıcı sonuç üretmemesi, eksik bilgileri fark etmesi ve farklı ekran boyutlarında sorunsuz çalışması sağlanmıştır[cite: 1].
+- **Sprint Notları:** Projenin üçüncü aşamasında, AgriScore'un yalnızca üretici bilgilerini ve skorları gösteren statik bir panel olmaktan çıkarılarak daha güvenilir, açıklanabilir ve kullanıcıya yol gösteren bir tarımsal finans karar destek ürününe dönüştürülmesi hedeflenmiştir. Önceki sprintlerde kurulan üretici paneli, kurumsal panel, belge yükleme alanı ve uygulama içi yardımcı korunmuş; bu yapıların gerçek kullanım sırasında yanıltıcı sonuç üretmemesi, eksik bilgileri fark etmesi ve farklı ekran boyutlarında sorunsuz çalışması sağlanmıştır
 
-- **Sprint içinde tamamlanması tahmin edilen puan:** 11 Puan[cite: 1]
+- **Sprint içinde tamamlanması tahmin edilen puan:** 11 Puan
 
-- **Sprint içinde tamamlanan puan:** 11 Puan[cite: 1]
+- **Sprint içinde tamamlanan puan:** 11 Puan
 
-- **Puan tamamlama mantığı:** Proje boyunca tamamlanması gereken toplam 36 puanlık backlog dağılımına göre (Sprint 1: 10 puan, Sprint 2: 15 puan) kalan 11 puanlık Sprint 3 görevleri eksiksiz tamamlanmıştır[cite: 1]. Görevler yalnızca yeni ekran eklenmesi üzerinden değerlendirilmemiş, var olan ekranların güvenilir, tutarlı ve çalışır hale getirilmesi sağlanmıştır[cite: 1].
+- **Puan tamamlama mantığı:** Proje boyunca tamamlanması gereken toplam 36 puanlık backlog dağılımına göre (Sprint 1: 10 puan, Sprint 2: 15 puan) kalan 11 puanlık Sprint 3 görevleri eksiksiz tamamlanmıştır. Görevler yalnızca yeni ekran eklenmesi üzerinden değerlendirilmemiş, var olan ekranların güvenilir, tutarlı ve çalışır hale getirilmesi sağlanmıştır.
 
-- **Daily Scrum:** İletişim WhatsApp ve Discord kanalları üzerinden yürütülmüştür. Eksik veri yönetimi, belirsiz PDF çıktıları, mobil görünüm uyumsuzlukları ve yayın ortamı yönlendirme problemleri bu süreçte çözüme kavuşturulmuştur[cite: 1].
+- **Daily Scrum:** İletişim WhatsApp ve Discord kanalları üzerinden yürütülmüştür. Eksik veri yönetimi, belirsiz PDF çıktıları, mobil görünüm uyumsuzlukları ve yayın ortamı yönlendirme problemleri bu süreçte çözüme kavuşturulmuştur.
 
 - **Tasarım ve Geliştirme Yaklaşımı:**
   - Bağımsız çalışan statik varsayımlar yerine gerçek hesap motorlarına ve doğrulanabilir kurallara dayalı veri akışı önceliklendirilmiştir.
-  - "Bilinmiyor" ve "sıfır" kavramları birbirinden kesin olarak ayrılmış, eksik verilerin skoru olumlu yönde etkilemesi engellenmiştir[cite: 1].
-  - Responsive (mobil uyumlu) yapı güçlendirilmiş, dar ekranlarda ve sekmeler arası geçişlerde grafik/arayüz kararlılığı artırılmıştır[cite: 1].
+  - "Bilinmiyor" ve "sıfır" kavramları birbirinden kesin olarak ayrılmış, eksik verilerin skoru olumlu yönde etkilemesi engellenmiştir.
+  - Responsive (mobil uyumlu) yapı güçlendirilmiş, dar ekranlarda ve sekmeler arası geçişlerde grafik/arayüz kararlılığı artırılmıştır.
 
 - **Sprint Board:**
   
 <details>
 <summary><h3>Ürün Durumu: Ekran Görüntüleri</h3></summary>
 
-*(Ekran görüntüleri bu alana eklenecektir)*
+
+
+### Güncel Resmî Pazar Göstergeleri Paneli
+Kurumsal portföy ekranına eklenen; çiğ süt tavsiye fiyatı (Ulusal Süt Konseyi), toplanan inek sütü miktarı (TÜİK) ve IPARD III çağrı bütçesi (TKDK) gibi resmî verilerin kaynak bağlantılarıyla birlikte gösterildiği arayüz. Bu göstergelerin piyasa bağlamı sunduğu ancak doğrudan işletme skorunu değiştirmediği şeffaf bir şekilde belirtilmektedir.
+
+<img width="1223" height="297" alt="image" src="https://github.com/user-attachments/assets/57ee5d07-a402-415f-babd-fe46ca57904a" />
+
+
+
+
+### AgriScore Risk ve Analiz Paneli ve Yapay Zeka Yardımcısı
+Kurumsal çalışma alanında işletme dosyalarının risk durumunu, veri güvenilirliğini ve dosya sonucunu (Koşullu İnceleme) tek bakışta gösteren arayüz. Sağ altta yer alan AgriScore Yardımcısı ise o an ekranda açık olan işletme kayıtlarını ve skor özetini (Skor: 92/100, Veri Güvenilirliği: %95) bağlama duyarlı olarak analiz edip banka yetkilisine net bir şekilde açıklamaktadır.
+
+<img width="1277" height="807" alt="image" src="https://github.com/user-attachments/assets/a7b03087-9c1e-4e30-aa5e-e92c303612ad" />
+
+
+
+
+### İyileştirme Yolu, Çelişki Analizi ve Geçmiş Değerlendirmeler Paneli
+Kurumsal portföyde eksik finansal bilgilerle güvenli iyileştirme yolunun nasıl denetlendiğini, dosyalar arasındaki olası sinyal çelişkilerinin (Açıklığa Kavuşturulacak Konular) nasıl takip edildiğini ve tarayıcı üzerinde tutulan son 5 değerlendirme özetinin (Mehmet Demir, Ahmet Yılmaz) güven %95-%100 oranlarıyla nasıl listelendiğini gösteren detay paneli.
+
+<img width="1212" height="692" alt="image" src="https://github.com/user-attachments/assets/ebf5bab2-fbd9-46a3-9417-2654dcca8bf9" />
+
+
+### Üretici Paneli: Nakit Akışı ve Stres Testi
+Üretici çalışma alanında yer alan Finansal Sağlık sekmesinde; Ahmet Yılmaz'a ait süt çiftliğinin aylık tahmini gelirini (₺1.327.500), giderlerini (-₺750.000) ve net nakit akışını (₺527.500) gösteren arayüz. Sağ tarafta ise farklı piyasa senaryoları (değişen koşullar) altında borç ödeme görünümü ve korumalı ödeme kapasitesi (1,25 üzeri korumalı aralık, mevcut durum: 11.55) simülasyonu yer almaktadır.
+
+<img width="1212" height="692" alt="image" src="https://github.com/user-attachments/assets/ebf5bab2-fbd9-46a3-9417-2654dcca8bf9" />
+
+
+
+
 
 </details>
 
 - **Sprint Review:** 
-  - AgriScore'un temel kullanıcı akışları kararlı hale getirilmiş, eksik ve yanıltıcı sonuç üretme riskleri ortadan kaldırılmıştır[cite: 1].
-  - Karşılama sayfası, kurumsal/üretici girişleri, portföy özeti, risk-analiz bölümü, fırsatlar, ÇKS belge kontrolü ve uygulama içi yardımcının sorunsuz çalıştığı doğrulanmıştır[cite: 1].
+  - AgriScore'un temel kullanıcı akışları kararlı hale getirilmiş, eksik ve yanıltıcı sonuç üretme riskleri ortadan kaldırılmıştır.
+  - Karşılama sayfası, kurumsal/üretici girişleri, portföy özeti, risk-analiz bölümü, fırsatlar, ÇKS belge kontrolü ve uygulama içi yardımcının sorunsuz çalıştığı doğrulanmıştır.
 
 - **Sprint Retrospective:** 
-  - Eksik verilerin hiçbir zaman sıfır kabul edilmemesi gerektiği prensibi benimsenmiştir[cite: 1].
-  - Mobil doğrulama ve yayın ortamı kararlılığının geliştirme sürecinin sonuna bırakılmayarak her aşamada gözetilmesi gerektiği kararlaştırılmıştır[cite: 1].
+  - Eksik verilerin hiçbir zaman sıfır kabul edilmemesi gerektiği prensibi benimsenmiştir.
+  - Mobil doğrulama ve yayın ortamı kararlılığının geliştirme sürecinin sonuna bırakılmayarak her aşamada gözetilmesi gerektiği kararlaştırılmıştır.
 
 
 
