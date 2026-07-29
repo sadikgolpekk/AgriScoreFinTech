@@ -213,7 +213,9 @@ Banka yetkilisi bir üreticinin (örn. Hasan Erdoğan) profilini incelerken sağ
   - Responsive (mobil uyumlu) yapı güçlendirilmiş, dar ekranlarda ve sekmeler arası geçişlerde grafik/arayüz kararlılığı artırılmıştır.
 
 - **Sprint Board:**
-  
+
+![Sprint Board - 3](https://github.com/user-attachments/assets/ac80efc3-589a-4059-ad69-1f0acd40fc39)
+
 <details>
 <summary><h3>Ürün Durumu: Ekran Görüntüleri</h3></summary>
 
