@@ -214,7 +214,7 @@ Banka yetkilisi bir üreticinin (örn. Hasan Erdoğan) profilini incelerken sağ
 
 - **Sprint Board:**
 
-![Sprint Board - 3](https://github.com/user-attachments/assets/ac80efc3-589a-4059-ad69-1f0acd40fc39)
+![Sprint Board - 3](https://github.com/user-attachments/assets/0a0d2402-6eb7-4201-9393-72c587fc5553)
 
 <details>
 <summary><h3>Ürün Durumu: Ekran Görüntüleri</h3></summary>
